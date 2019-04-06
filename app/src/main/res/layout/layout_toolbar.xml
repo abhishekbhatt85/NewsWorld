@@ -1,0 +1,12 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_56"
+    android:layout_alignParentTop="true"
+    app:contentInsetStartWithNavigation="-32dp"
+    app:titleTextAppearance="@style/ToolbarTextTheme"
+    app:titleTextColor="@color/colorWhite"
+    style="@style/ToolbarTheme"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/overflowMenuStyle"/>
