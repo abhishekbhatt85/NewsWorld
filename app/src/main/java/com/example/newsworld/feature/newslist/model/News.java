@@ -7,12 +7,6 @@ import java.util.List;
 
 public class News implements Parcelable {
 
-  /**
-   * status : ok
-   * totalResults : 38
-   * articles : [{"source":{"id":"fox-news","name":"Fox News"},"author":"Hollie McKay","title":"American abducted in Uganda tourist park, held for $500G ransom - Fox News","description":"A manhunt continues a day after an American citizen and her local guide were abducted during a game ride in a prominent tourist park in Uganda, a U.S federal official confirmed to Fox News on Wednesday.","url":"https://www.foxnews.com/world/american-tourist-abducted-held-for-ransom-in-uganda-tourist-park","urlToImage":"https://static.foxnews.com/foxnews.com/content/uploads/2018/09/Queen_Elizabeth_National_Park_iStock.jpg","publishedAt":"2019-04-03T15:09:27Z","content":"An American citizen and her local guide have been abducted during a game ride in a prominent tourist park in Uganda, a U.S federal official confirmed to Fox News on Wednesday. The incident is believed to have happened between 6 and 7 pm Tuesday near a wildern\u2026 [+1322 chars]"},{"source":{"id":"cnn","name":"CNN"},"author":"Michael Nedelman, CNN","title":"FDA investigates reports of seizures after vaping - CNN","description":"After reports of seizures after vaping, the US Food and Drug Administration is alerting the public to a potential new risk and calling for people to come forward with cases the agency might not know about.","url":"https://www.cnn.com/2019/04/03/health/fda-ecigarette-seizures-investigation-bn/index.html","urlToImage":"https://cdn.cnn.com/cnnnext/dam/assets/190109141004-fda-building-super-tease.jpg","publishedAt":"2019-04-03T14:44:00Z","content":"(CNN) After reports of seizures after vaping, the US Food and Drug Administration is alerting the public to a potential new risk and calling for people to come forward with cases the agency might not know about. The FDA has identified 35 such cases of seizure\u2026 [+4400 chars]"}]
-   */
-
   private String status;
   private int totalResults;
   private List<ArticlesBean> articles;
@@ -42,16 +36,6 @@ public class News implements Parcelable {
   }
 
   public static class ArticlesBean implements Parcelable {
-    /**
-     * source : {"id":"fox-news","name":"Fox News"}
-     * author : Hollie McKay
-     * title : American abducted in Uganda tourist park, held for $500G ransom - Fox News
-     * description : A manhunt continues a day after an American citizen and her local guide were abducted during a game ride in a prominent tourist park in Uganda, a U.S federal official confirmed to Fox News on Wednesday.
-     * url : https://www.foxnews.com/world/american-tourist-abducted-held-for-ransom-in-uganda-tourist-park
-     * urlToImage : https://static.foxnews.com/foxnews.com/content/uploads/2018/09/Queen_Elizabeth_National_Park_iStock.jpg
-     * publishedAt : 2019-04-03T15:09:27Z
-     * content : An American citizen and her local guide have been abducted during a game ride in a prominent tourist park in Uganda, a U.S federal official confirmed to Fox News on Wednesday. The incident is believed to have happened between 6 and 7 pm Tuesday near a wildern… [+1322 chars]
-     */
 
     private SourceBean source;
     private String author;
@@ -127,11 +111,6 @@ public class News implements Parcelable {
     }
 
     public static class SourceBean implements Parcelable {
-      /**
-       * id : fox-news
-       * name : Fox News
-       */
-
       private String id;
       private String name;
 
